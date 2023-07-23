@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-no-repeat bg-center bg-cover bg-fixed min-h-screen;
+    background-image: url("../img/batman-bg.jpg");
+}
+
+.page {
+    @apply backdrop-blur-3xl font-space-grotesk backdrop-brightness-50 min-h-screen flex justify-center min-w-[90rem] text-white;
+}
+
+
+.main {
+    box-shadow: 0 0 90px 0 black;
+    @apply bg-no-repeat bg-cover bg-right min-h-screen;
+    @apply w-[90rem];
+    background-image: url("../img/batman-bg.jpg");
+}
+
+
+.subtitle-1 {
+    @apply font-bold text-[18px] leading-[28px];
+}
+
+.subtitle-2 {
+    @apply font-normal text-[18px] leading-[28px];
+}
+
+
+.heading-1 {
+    @apply font-bold leading-[98px] text-[72px];
+}
+
+.heading-4 {
+    @apply font-bold leading-[40px] text-[28px];
+}
+
+.heading-5 {
+    @apply font-semibold leading-[32px] text-[24px];
+}
+
+.capitalised {
+    @apply font-bold leading-[18px] text-[14px] tracking-[2px];
+}
+
+
+.medium-label {
+    @apply font-bold leading-[20px] text-[14px];
+
+}
+
+.small-label {
+    @apply font-bold leading-[16px] text-[12px];
+}
